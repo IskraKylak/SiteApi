@@ -17,8 +17,8 @@
           </router-link>
           <div class="box_callback">
             <div class="box_enter">
-              <a class="link" href="#">Вхід</a>
-              <a class="link" href="#">Реєстрація</a>
+              <router-link class="link" to="/in-login">Вхід</router-link>
+              <router-link class="link" to="/register">Реєстрація</router-link>
             </div>
             <div class="box_messendger">
               <a class="link_facebook" href="https://www.facebook.com/"
@@ -78,8 +78,10 @@
               </li>
             </ul>
             <div class="box_enter">
-              <a class="link" href="#">Реєстрація</a>
-              <a class="link" href="#">Вхід</a>
+              <router-link class="link" to="/register">Реєстрація</router-link>
+              <router-link class="link" to="/in-login">Вхід</router-link>
+              <!-- <a class="link" href="#">Реєстрація</a>
+              <a class="link" href="#">Вхід</a> -->
             </div>
           </nav>
         </div>

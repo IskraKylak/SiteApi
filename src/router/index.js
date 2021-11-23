@@ -8,6 +8,9 @@ import presidium from '@/views/presidium'
 import NotFound from '@/views/404.vue'
 import experts from '@/views/experts.vue'
 
+import register from '@/views/register.vue'
+import inLogin from '@/views/inLogin.vue'
+
 const routes = [
    {
       path: '/',
@@ -43,6 +46,16 @@ const routes = [
       path: '/experts',
       name: 'experts',
       component: experts
+   },
+   {
+      path: '/in-login',
+      name: 'inLogin',
+      component: inLogin
+   },
+   {
+      path: '/register',
+      name: 'register',
+      component: register
    },
    {
       path: '/:catchAll(.*)',
